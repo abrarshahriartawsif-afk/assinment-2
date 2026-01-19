@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* responsive */
+   @media screen and (max-width:576px){
+    #nav {
+        width: 500px;
+      flex-wrap: wrap;
+        margin: auto;
+        padding: auto;
+        margin-left: 20px;
+    }
+    #header .banner-image-container{
+        width: 500px;
+        height: 100%;
+      align-items: flex-start;
+    }
+    #header .banner-image{
+        align-items: flex-start;
+    }
+    #header{
+        width: 500px;
+    }
+    
+   }
+/* shared-style */
+.redient-color{
+    background: linear-gradient(196deg,rgba(131, 58, 180, 1) 0%, rgba(131, 58, 180, 1) 28%, rgba(253, 29, 29, 1) 68%, rgba(252, 176, 69, 1) 83%);
+-webkit-background-clip: text;
+color: transparent;
+}
+.white{
+    color: #FFFFFF;
+}
+.button {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 100px;
+    width: 134px;
+    height: 44px;
+    background: linear-gradient(196deg,rgba(131, 58, 180, 1) 0%, rgba(131, 58, 180, 1) 28%, rgba(253, 29, 29, 1) 68%, rgba(252, 176, 69, 1) 83%);
+    border: none;
+}
+/* nav-tag-area */
+#nav{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+#header #nav{
+    padding:0% 200px;
+    padding-top: 20px;
+}
+#nav h1 {
+    font-size: 60px;
+} 
+
+#nav ul{
+    display: flex;
+}
+#nav ul li{
+    list-style: none;
+}
+#nav ul li a{
+    text-decoration: none;
+     margin-right: 32px;
+     color:#FFFFFF;
+}
+
+/* header-area  */
+#header{
+    background-color: #1A0B2E;
+    height:1400px ;
+     margin: 0%;
+}
+#header .banner{
+    padding-top: 110px;
+       background-image: url(../assets/hero-bg.png);
+}
+#header .banner-image{
+    background-image: url(../assets/hero-circle.png);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+#header .banner-image-container{
+    display: flex;
+    justify-content: center;
+    margin-left:592px ;
+    margin-right: 525px;
+}
+#header .banner-image img{
+    margin-top: 60px;
+    width: 140px;
+    height: 200px;
+}
+/* banner-discription */
+#header .banner-discription{
+    text-align: center;
+}
+#header .spotify-button{
+ font-size: 16px;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 100px;
+    width: 164px;
+    height: 44px;
+    background: linear-gradient(196deg,rgba(131, 58, 180, 1) 0%, rgba(131, 58, 180, 1) 28%, rgba(253, 29, 29, 1) 68%, rgba(252, 176, 69, 1) 83%);
+    border: none;
+}
+#header .banner-discription h2{
+  font-size: 60px;
+  margin-top: 40px;
+}
+#header .banner-discription p {
+    font-size: 16px;
+    color:rgb(168, 168, 168);
+    margin-bottom: 30px;
+}
+#header .banner-sbu-button{
+    background:transparent ;
+    border: solid 2px #00FF88;
+    color: #00FF88;
+}
