@@ -138,3 +138,101 @@ color: #00FF88;
 .section span{
     font-weight: bolder;
 }
+/* main-1st-part */
+#main .main-container img{
+  margin-bottom: 16px;
+}
+#main .main-container p{
+    font-size: 16px;
+    color:rgb(168, 168, 168) ;
+}
+.main-container h3{
+ font-size: 24px;
+ margin-bottom: 16px;
+ color: #FFFFFF;
+}
+#main .headphone{
+ grid-area:headphone ;
+}
+#main .device{
+ grid-area:device ;
+ 
+}
+#main .location{
+grid-area:location ;
+
+}
+#main .lightning{
+ grid-area: lightning;
+}
+#main .resource{
+ grid-area: resource;
+}
+#main .main-container>*{
+ background-color: #351165;
+ padding: 70px 40px;
+ border-radius: 30px;
+}
+.container-grid{
+    padding-top: 60px;
+      background-color: #230E3D;
+}
+.container-grid h2{
+  font-size: 60px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#main .main-container{
+     background-color: #230E3D;
+     padding: 100px 200px;
+  display: grid;
+  gap: 30px;
+  grid-template-areas: 
+   "headphone  device    device "
+   "headphone  location  location"
+   "lightning  lightning  resource ";
+}
+/* main video section */
+#main-section{
+    background-color: #1A0B2E;
+    padding: 0% 100px;
+    padding-top: 120px;
+}
+#main-section h2{
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#main-section .text{
+  padding: 24px;
+}
+#main-section .text h3{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#main-section .text h4{
+    font-size: 16px;
+    color: #00FF88;
+}
+
+#main-section .text p{
+    color:rgb(168, 168, 168) ;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.youtube{
+   display: flex;
+   justify-content: space-between;
+}
+.youtube .video-container{
+     margin: 30px;
+     background-color: #351165;
+     border-radius:15px ;
+}
+.youtube iframe{
+    width: 380px;
+    margin-bottom: 0%;
+}
